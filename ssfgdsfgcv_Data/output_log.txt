@@ -1,0 +1,61 @@
+Initialize engine version: 4.6.4f1 (99f88340878d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.5286]
+    Renderer: NVIDIA GeForce GT 720M  
+    Vendor:   NVIDIA
+    VRAM:     1996 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Default GameObject BitMask: Player already registered
+ 
+(Filename:  Line: 169)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.104 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Documents\ThirdPersonShooter\ssfgdsfgcv_Data\Managed\System.dll (this message is harmless)
+JoinedLobby
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error Joining Random Room
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+JoinedRoom
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+The observed monobehaviour (_Scripts) of this PhotonView does not implement OnPhotonSerializeView()!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+The observed monobehaviour (Crate) of this PhotonView does not implement OnPhotonSerializeView()!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Player(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Player(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Player(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
