@@ -57,7 +57,10 @@
      <Compile Include="Assets\Plugins\ChatApi\IChatClientListener.cs" />
      <None Include="Assets\Imports\Photon Unity Networking\AppId.txt" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\SimpleMilitary\ReadMe.txt" />
+     <None Include="Assets\SimpleMilitary\Changelog.txt" />
      <None Include="Assets\Imports\Military_Rifle_01_Free_v2\Docs\Military_Rifle_Free_Unity_Info.txt" />
+     <None Include="Assets\SimpleMilitary\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Imports\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Imports\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
