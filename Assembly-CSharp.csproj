@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -119,21 +119,24 @@
      <Compile Include="Assets\Scripts\Player\NetworkCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\RightJoystick.cs" />
      <Compile Include="Assets\Scripts\Player\Shooting.cs" />
-     <None Include="Assets\Free Guns Pack\READ_ME.txt" />
+     <Compile Include="Assets\Scripts\PlayerV2\MovementV2.cs" />
      <None Include="Assets\Imports\Photon Unity Networking\AppId.txt" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\SimpleMilitary\ReadMe.txt" />
+     <None Include="Assets\SimpleMilitary\Changelog.txt" />
      <None Include="Assets\Imports\Military_Rifle_01_Free_v2\Docs\Military_Rifle_Free_Unity_Info.txt" />
+     <None Include="Assets\SimpleMilitary\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Imports\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Imports\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>D:/Documentos/ThirdPersonShooter/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>D:/Documents/ThirdPersonShooter/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
