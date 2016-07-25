@@ -184,7 +184,17 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nInbetween bone default rotation found in this file
+      is different from the one found in the source avatar:\n\t'M1:LeftLegRoll' :
+      rotation error = 3.606490 deg\n\t'M1:Spine2' : rotation error = 1.565821 deg\n\t'M1:Neck1'
+      : rotation error = 4.257885 deg\n\t'M1:RightLegRoll' : rotation error = 6.628876
+      deg\n\nClip 'MOB1_M1_Stand_Relaxed_L180' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'M1:LeftLegRoll' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'M1:Spine2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'M1:Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'M1:RightLegRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -193,7 +203,201 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MOB1_M1_Stand_Relaxed_L180
+      takeName: MOB1_M1_Stand_Relaxed_L180
+      firstFrame: 0
+      lastFrame: 232
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M1:Root
+        weight: 1
+      - path: M1:Root/M1:Hips
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg/M1:LeftUpLegRoll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg/M1:LeftUpLegRoll/M1:LeftLeg
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg/M1:LeftUpLegRoll/M1:LeftLeg/M1:LeftLegRoll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg/M1:LeftUpLegRoll/M1:LeftLeg/M1:LeftLegRoll/M1:LeftFoot
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg/M1:LeftUpLegRoll/M1:LeftLeg/M1:LeftLegRoll/M1:LeftFoot/M1:LeftToeBase
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:LeftUpLeg/M1:LeftUpLegRoll/M1:LeftLeg/M1:LeftLegRoll/M1:LeftFoot/M1:LeftToeBase/M1:LeftToeEnd
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:RightUpLeg
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:RightUpLeg/M1:RightUpLegRoll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:RightUpLeg/M1:RightUpLegRoll/M1:RightLeg
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:RightUpLeg/M1:RightUpLegRoll/M1:RightLeg/M1:RightLegRoll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:RightUpLeg/M1:RightUpLegRoll/M1:RightLeg/M1:RightLegRoll/M1:RightFoot
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:RightUpLeg/M1:RightUpLegRoll/M1:RightLeg/M1:RightLegRoll/M1:RightFoot/M1:RightToeBase
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:RightUpLeg/M1:RightUpLegRoll/M1:RightLeg/M1:RightLegRoll/M1:RightFoot/M1:RightToeBase/M1:RightToeEnd
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandIndex1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandIndex1/M1:LeftHandIndex2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandIndex1/M1:LeftHandIndex2/M1:LeftHandIndex3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandIndex1/M1:LeftHandIndex2/M1:LeftHandIndex3/M1:LeftHandIndex4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandMiddle1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandMiddle1/M1:LeftHandMiddle2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandMiddle1/M1:LeftHandMiddle2/M1:LeftHandMiddle3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandMiddle1/M1:LeftHandMiddle2/M1:LeftHandMiddle3/M1:LeftHandMiddle4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandPinky1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandPinky1/M1:LeftHandPinky2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandPinky1/M1:LeftHandPinky2/M1:LeftHandPinky3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandPinky1/M1:LeftHandPinky2/M1:LeftHandPinky3/M1:LeftHandPinky4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandRing1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandRing1/M1:LeftHandRing2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandRing1/M1:LeftHandRing2/M1:LeftHandRing3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandRing1/M1:LeftHandRing2/M1:LeftHandRing3/M1:LeftHandRing4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandThumb1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandThumb1/M1:LeftHandThumb2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandThumb1/M1:LeftHandThumb2/M1:LeftHandThumb3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:LeftShoulder/M1:LeftArm/M1:LeftArm_Roll/M1:LeftForeArm/M1:LeftForeArm_Roll/M1:LeftHand/M1:LeftHandThumb1/M1:LeftHandThumb2/M1:LeftHandThumb3/M1:LeftHandThumb4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:Head_End
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:Jaw
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:Jaw/M1:Jaw_End
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:L_Eye
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:L_Eye_Socket
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:R_Eye
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:Neck/M1:Neck1/M1:Head/M1:R_Eye_Socket
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandIndex1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandIndex1/M1:RightHandIndex2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandIndex1/M1:RightHandIndex2/M1:RightHandIndex3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandIndex1/M1:RightHandIndex2/M1:RightHandIndex3/M1:RightHandIndex4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandMiddle1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandMiddle1/M1:RightHandMiddle2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandMiddle1/M1:RightHandMiddle2/M1:RightHandMiddle3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandMiddle1/M1:RightHandMiddle2/M1:RightHandMiddle3/M1:RightHandMiddle4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandPinky1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandPinky1/M1:RightHandPinky2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandPinky1/M1:RightHandPinky2/M1:RightHandPinky3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandPinky1/M1:RightHandPinky2/M1:RightHandPinky3/M1:RightHandPinky4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandRing1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandRing1/M1:RightHandRing2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandRing1/M1:RightHandRing2/M1:RightHandRing3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandRing1/M1:RightHandRing2/M1:RightHandRing3/M1:RightHandRing4
+        weight: 0
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandThumb1
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandThumb1/M1:RightHandThumb2
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandThumb1/M1:RightHandThumb2/M1:RightHandThumb3
+        weight: 1
+      - path: M1:Root/M1:Hips/M1:Spine/M1:Spine1/M1:Spine2/M1:RightShoulder/M1:RightArm/M1:RightArm_Roll/M1:RightForeArm/M1:RightForeArm_Roll/M1:RightHand/M1:RightHandThumb1/M1:RightHandThumb2/M1:RightHandThumb3/M1:RightHandThumb4
+        weight: 0
+      - path: Motus_Man_01
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

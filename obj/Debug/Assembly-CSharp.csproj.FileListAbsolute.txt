@@ -23,3 +23,6 @@ D:\Documents\ThirdPersonShooter\Temp\bin\Debug\Photon3Unity3D.xml
 D:\Documents\ThirdPersonShooter\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\Documents\ThirdPersonShooter\obj\Debug\Assembly-CSharp.dll
 D:\Documents\ThirdPersonShooter\obj\Debug\Assembly-CSharp.pdb
+D:\Documentos\ThirdPersonShooter\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\Documentos\ThirdPersonShooter\obj\Debug\Assembly-CSharp.dll
+D:\Documentos\ThirdPersonShooter\obj\Debug\Assembly-CSharp.pdb
